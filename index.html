@@ -391,7 +391,21 @@
                         </li>
                         </ul>
                     </div>
+                    <div class="connect-wrap">
+                        <h3 class="connect-title">Подпишитесь на рассылку</h3>
+                        <form action="#" class="connect-form">
+                            <input type="text" placeholder="E-mail" name="connect-name" class="connect-input">
+                        <button type="button" class="connect-btn connect-btn-text">Подписаться
+                            <a href="" class="connect-btn-icon">
+                                <svg class="connect-icon" width="24" height="24">
+                                    <use href="./images/icons.svg.svg#icon-btn-send"></use>
+                                </svg>
+                            </a>
+                        </button>
+                        </form>
                     </div>
+                    </div>
+                    
             </footer>
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
@@ -403,9 +417,31 @@
                     </button>
                     <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
                     <form action="#"></form>
-                    <input type="text" class="form-input" />
-                    <input type="text" class="form-input" />
-                    <input type="text" class="form-input" />
+                    <div class="form-field">
+                        <label class="input-text">Имя</label>
+                    <input type="text"  
+                    class="form-input"
+                    />
+                    </div>
+                    <div class="form-field">
+                        <label class="input-text">Телефон</label>
+                    <input type="tel" 
+                    class="form-input" />
+                    </div>
+                    <div class="form-field">
+                        <label class="input-text">Почта</label>
+                    <input type="email" 
+                    class="form-input" />
+                    </div>
+                    <div class="form-field">
+                        <label class="input-text">Комментарий</label>
+                        <textarea 
+                        name="user-text" 
+                        id="user-text"
+                        class="form-text"
+                        placeholder="Введите текст"
+                        ></textarea>
+                    </div>
                     <button type="submit">Отправить</button>
                 </div>
             </div>
