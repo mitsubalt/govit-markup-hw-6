@@ -1147,11 +1147,11 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
 }
 
 .form-field {
-  margin-bottom: 28px;
+  margin-bottom: 10px;
 }
 
 .form-input {
@@ -1159,6 +1159,7 @@ img {
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  padding-left: 40px;
 }
 
 .form-input ::placeholder {
@@ -1166,12 +1167,13 @@ img {
 }
 
 .input-text {
+  font-weight: normal;
   font-size: 12px;
   line-height: 1.16;
   /* identical to box height */
   letter-spacing: 0.01em;
   color: #757575;
-  margin-bottom: 4px;
+  margin-bottom: 10px;
 }
 
 .form-text {
