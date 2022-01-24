@@ -1222,6 +1222,8 @@ img {
   letter-spacing: 0.03em;
   color: #757575;
   display: flex;
+  align-items: center;
+  cursor: pointer;
 }
 
 .check-text::before {
